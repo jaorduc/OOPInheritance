@@ -1,5 +1,6 @@
 public class Animal {
 
+
     void fly(){
         System.out.println("This animal flies");
     }

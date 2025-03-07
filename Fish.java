@@ -1,5 +1,6 @@
-public class Fish extends Animal{  
+public class Fish extends Animal{
 
     int fins = 2;
+    
 
 }
