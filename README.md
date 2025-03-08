@@ -49,7 +49,7 @@ To talk about inheritance in the progamming context, we will create the followin
 1. Animal.java
 1. Bird.java
 1. Dog.java
-
+1. Fish.java
 
 <a href="https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366" target="_blank"><img src="https://cdn12.picryl.com/photo/2016/12/31/fish-fins-carp-science-technology-a93366-1024.jpg" alt="Figure source." style="width:30%"></a>
 <a href="https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366" target="_blank"><img src="https://www.shutterstock.com/image-vector/illustrator-body-parts-bird-260nw-1317824753.jpg" alt="Figure source." style="width:16%"></a>  <a href="https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366" target="_blank"><img src="https://live.staticflickr.com/2792/4394640467_a684b9c629_b.jpg" alt="Figure source." style="width:24%"></a>

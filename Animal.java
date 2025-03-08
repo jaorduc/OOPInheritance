@@ -4,6 +4,7 @@ public class Animal {
     void fly(){
         System.out.println("This animal flies");
     }
+
     void high(){
         System.out.println("This animal lives up high");
     } 

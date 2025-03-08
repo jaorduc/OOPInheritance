@@ -5,9 +5,9 @@ public class Main{
         System.out.println("Hi Inheritance!");
         
         Bird bird = new Bird();
+
         bird.fly();
         bird.chirp();
-
 
         Dog dog = new Dog();
         dog.walk();
