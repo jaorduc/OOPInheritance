@@ -39,8 +39,8 @@ This repository contains a short explain and an example about Inheritance concep
 
 It is one of the OOP pilars through one class inherits the atributes and methods of another.
 
-![system schema](https://upload.wikimedia.org/wikipedia/commons/3/3e/4pillars.webp)
-Source: Ref. [1]
+<a href="https://commons.wikimedia.org/wiki/File:4pillars.webp" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/4pillars.webp" alt="Figure source." style="width:50%"></a>
+
 
 ## Implementation
 To talk about inheritance in the progamming context, we will create the following files,
@@ -50,20 +50,51 @@ To talk about inheritance in the progamming context, we will create the followin
 1. Bird.java
 1. Dog.java
 
-![Fish](https://cdn12.picryl.com/photo/2016/12/31/fish-fins-carp-science-technology-a93366-1024.jpg)
 
-![Dog](https://live.staticflickr.com/2792/4394640467_a684b9c629_b.jpg)
+<a href="https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366" target="_blank"><img src="https://cdn12.picryl.com/photo/2016/12/31/fish-fins-carp-science-technology-a93366-1024.jpg" alt="Figure source." style="width:30%"></a>
+<a href="https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366" target="_blank"><img src="https://www.shutterstock.com/image-vector/illustrator-body-parts-bird-260nw-1317824753.jpg" alt="Figure source." style="width:16%"></a>  <a href="https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366" target="_blank"><img src="https://live.staticflickr.com/2792/4394640467_a684b9c629_b.jpg" alt="Figure source." style="width:24%"></a>
 
-![Bird](https://www.shutterstock.com/image-vector/illustrator-body-parts-bird-260nw-1317824753.jpg)
-Source: Ref. [3]
+This is a first approach about Inheritance concept with a quick implementation in Java.
+
+# Try out!
+
+Go to this website: Ref. [[4](https://pythontutor.com/java.html)] and introduce this code:
+```Java
+class Animal {
+    void fly(){
+        System.out.println("This animal flies");
+    }
+    void high(){
+        System.out.println("This animal lives up high");
+    } 
+}
 
 
+public class Bird extends Animal{
+    int wings = 2;
+    public void chirp(){
+        System.out.println("is chirping");
+    }
 
+
+    public static void main(String[] args){
+        System.out.println("Hi Inheritance!");        
+        Bird bird = new Bird();
+        bird.fly();
+        bird.chirp();
+    }
+}
+```
+Check the simulation, then add one atribute, and one subclass.
 
 # References
 
-1. Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:4pillars.webp)
+<!-- 1. Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:4pillars.webp) -->
 
 1. To dowload [Java](https://www.oracle.com/java/technologies/downloads/)
 
 1. Source for the images [fish](https://itoldya420.getarchive.net/media/fish-fins-carp-science-technology-a93366)
+
+1. Inheritance [OpenDSA](https://opendsa-server.cs.vt.edu/OpenDSA/Books/IntroToSoftwareDesign/html/InheritanceAndPolymorphism.html)
+
+1. Visualization: [pythontutor](https://pythontutor.com/java.html)
