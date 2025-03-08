@@ -58,7 +58,7 @@ This is a first approach about Inheritance concept with a quick implementation i
 
 # Try out!
 
-Go to this website: Ref. [[4](https://pythontutor.com/java.html){:target="_blank"}] and introduce this code:
+Go to this website:Ref. [<a href="https://pythontutor.com/java.html" target="_blank">4</a>] and introduce this code:
 
 ```Java
 class Animal {
